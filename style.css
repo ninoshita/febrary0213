@@ -1,0 +1,264 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*------------- 全体 start------------- */
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 16px;
+	/*background-color: rgb(242, 244, 245);*/
+}
+
+p {
+	margin: 0;
+	font-size: 90%;
+	line-height: 1.5;
+}
+
+img {
+	border: 0;
+	vertical-align: bottom;
+}
+
+h1, h2, h3{
+	margin: 0;
+	padding: 0;
+}
+
+header, article, footer{
+	width:960px;
+	margin: 0 auto 0 auto;
+	padding: 0;
+}
+
+/*------------- 全体 end------------- */
+
+
+
+/* header */
+header{
+	background-color: ;
+}
+
+.bumon{
+	margin: 16px 0 16px 0;
+	width:15%;
+	height:60px;
+	float:right;
+}
+
+.bumon p{
+	font-size: 12px;
+	line-height: 20px;
+	margin: 0;
+}
+
+h1{
+	margin: 16px 0 16px 0;
+	font-size: 180%;
+	display: block;
+	width:85%;
+	height: 60px;
+	float: left;
+}
+
+nav{
+	clear:both;
+	background-color: rgb(001, 093, 178);
+	width:960px;
+	height: 48px;
+}
+
+nav ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+nav ul li{
+	display: block;
+	float: left;
+	width: 159px;
+	height: 48px;
+	border-left: 1px solid #ffffff;
+}
+
+nav a{
+	display: block;
+	line-height: 48px;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+
+
+/* article */
+article{
+	clear: both;
+	margin-top:20px;
+	margin-bottom:20px;
+	padding-bottom: 16px;
+}
+
+section{
+	margin: 16px;
+}
+
+/* パンくずリスト */
+ol {
+	padding-left: 0;
+	margin: 0 0 16px 0;
+}
+
+ol li{
+	display: inline;
+	margin-right: 5px;
+	font-size: 85%;
+}
+
+/* コメントスペース */
+
+h2{
+	font-size: 90%;
+	font-weight: normal;
+}
+.comment{
+	margin: 16px;
+	padding: 16px;
+	border:1px solid rgb(001, 093, 178);
+	background-color: #ffffff;
+	font-size: 90%;
+}
+
+
+/* タイトル */
+h3{
+	font-size: 20px;
+	margin: 0;
+	border-left: 8px solid rgb(001, 093, 178);
+	border-bottom: 1px solid rgb(001, 093, 178);
+	padding-left: 8px;
+}
+
+/* 新着情報 */
+table{
+	font-size: 90%;
+	margin: 8px 16px 16px 16px;
+}
+
+table td{
+	border-bottom: 1px dashed rgb(001, 093, 178);
+}
+
+/* footer */
+footer{
+	background-color: rgb(001, 093, 178);
+	height: 64px;
+	padding-top:10px;
+}
+
+footer ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+
+footer ul li{
+	display: inline;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-right: 1px solid #ffffff;
+	font-size: 90%;
+}
+
+footer ul li a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+footer ul li a:hover{
+	text-decoration: underline;
+}
+
+/* top */
+
+
+
+/* ホバー */
+
+nav ul li a:hover{
+	background-color: skyblue;
+}
+
+
+
+
+/* マニュアル・取説 */
+.list{
+	margin: 8px 0 8px 0;
+}
+
+.list p{
+	margin: 8px 0 8px 0;
+}
+
+.list table{
+	margin: 0;
+	width: 960px;
+	border:1px solid pink;
+	border-collapse: collapse;
+	font-size: 14px;
+}
+
+.list table th{
+	background-color: rgb(001, 093, 178);
+	color: #ffffff;
+	border:1px solid #000000;
+	font-weight: normal;
+	padding: 4px 0 4px 0;
+}
+
+.list table td{
+	border:1px solid #000000;
+	padding: 4px;
+	font-size: 90%;
+}
+
+/* top */
+#top .nav1{
+	background-color: deepskyblue;
+}
+
+/* マニュアル・取説 */
+#manual .nav2{
+	background-color: deepskyblue;
+}
+
+
+/* ツール・定義ファイル */
+#tool .nav3{
+	background-color: deepskyblue;
+}
+
+/* CADデータ外形図 */
+#cad .nav4{
+	background-color: deepskyblue;
+}
+
+/* 価格表・PO */
+#hanbai .nav5{
+	background-color: deepskyblue;
+}
+
+/* 一覧 */
+#po .nav6{
+	background-color: deepskyblue;
+}
+
+.kakakupdf,.hanbai2{
+	text-align:  center;
+}
